@@ -1,0 +1,90 @@
+Sospechosos sin muestra
+
+FW = Si y TIPO_MUESTRA_CONF_1="vacio"
+
+Pacientes resultado pendiente
+
+FW = SI y TIPO_MUESTRA_CONF_1="*" y BK="vacio" y AZ = "*"
+
+Pacientes con muestra rechazada
+
+FW = SI y TIPO_MUESTRA_CONF_1="*" y BI="Rechazada" y BK="vacio"
+
+--------------------------
+Pacientes con resultado positivo
+FW="SI" y AZ="*" y BK = "SARS COV2"
+
+Pacientes con resultado negativo
+FW="SI" y AZ="*" y BK = "Negativo SARS-CoV-2"
+
+----------------------------
+Hombre
+FW = "SI" y SEXO = "M"
+
+
+Mujeres
+FW = "SI" y SEXO = "F"
+-----------------------
+Rangos de edad
+
+FW="SI" L= $rangoEdad
+
+-------------------------
+Hospitalizados
+
+FW = "SI" y A = "HOSPITALIZADO"
+
+Ambulatorio
+FW = "SI" y A = "AMBULATORIO"
+
+----------------------------------------
+Sospechosos con muestra
+FW = "SI" y AZ="*" y BK="NEGATIVO"
+
+Pacientes confirmados
+FW = "SI" y AZ="*" y BK="SARSCOV2"
+
+Pacientes con muestra rechazada
+
+FW = SI y TIPO_MUESTRA_CONF_1="*" y BI="Rechazada" y BK="vacio"
+
+Pacientes resultado pendiente
+
+FW = SI y TIPO_MUESTRA_CONF_1="*" y BK="vacio" y AZ = "*"
+
+-----------------------------------------------------
+
+Pacientes Confirmados Acumulados totales
+
+Pacientes Nuevos Confirmados
+FW = SI y F_REGISTRO_RESULT_CONF1="fecha de hoy"y AZ = "*" y BK="SARSCOV2"
+
+Pacientes confirmados
+FW = SI y F_REGISTRO_RESULT_CONF1="fecha antesd de hoy"y AZ = "*" y BK="SARSCOV2"
+mujeres
+FW = SI y AZ = "*" y BK="SARSCOV2" y SEXO = "F"
+Masculino
+FW = SI y AZ = "*" y BK="SARSCOV2" y SEXO = "M"
+
+Ambulatorios y hospitalizados
+
+FW = SI y AZ = "*" y BK="SARSCOV2" y filtrar por A="AMBULATORIO" o A="HOSPITALIZADO"
+
+Distribucion por edad Confirmados
+
+FW = SI y AZ = "*" y BK="SARSCOV2" y filtrar por edad
+
+---------------------------------------------
+Censo confirmados
+
+FW = SI y AZ = "*" y BK="SARSCOV2" y columnas
+
+PEriodo de transmision sumar 14 dias
+
+Defuncion 
+Fecha defuncion = "*"
+
+
+Distribucion de Casos COVID-19 POR UNIDAD
+
+
