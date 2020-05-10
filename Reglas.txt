@@ -88,3 +88,12 @@ Fecha defuncion = "*"
 Distribucion de Casos COVID-19 POR UNIDAD
 
 
+
+--------------------------------
+Faltantes
+
+
+
+Defunciones 
+INDICADOR_SOSP_COVID="SI"   y DESC_TIPO_INFLUENZA_CONF1="*" omitir DESC_TIPO_INFLUENZA_CONF1="Negativo"
+
