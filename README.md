@@ -2,7 +2,7 @@
 Generador de reportes de SINOLAVE
 
 
-!["1"](portada.png)
+!["1"](portada.png)<br/>
 *Fig. 1: Pantalla de Inicio del Reporteador*
 
 
